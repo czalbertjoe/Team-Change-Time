@@ -1,11 +1,11 @@
 body {
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
-    flex-direction: column; /* Permite que los elementos se apilen verticalmente */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
     font-family: Arial, sans-serif;
-    background-image: url('../soccer.jpg');   
+    background-image: url('../images/soccer.jpg');
     color: #ffffff;
     text-align: center;
     margin: 0;
@@ -14,12 +14,12 @@ body {
 
 .container {
     max-width: 600px; 
-    width: 100%; /* Que tome todo el espacio disponible si es necesario */
+    width: 100%;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Mayor sombra para destacar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
