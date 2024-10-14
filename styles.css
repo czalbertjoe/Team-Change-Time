@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    flex-direction: column; /* Permite que los elementos se apilen verticalmente */
+    font-family: Arial, sans-serif;
+    background-image: url('../soccer.jpg');   
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px; 
+    width: 100%; /* Que tome todo el espacio disponible si es necesario */
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Mayor sombra para destacar */
+}
+
+h1 {
+    color: #aac2dc;
+}
+
+button {
+    background-color: #339e5c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.selected-team {
+    margin-top: 30px;
+}
+
+#randomTeam {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f0f0f0;
+    margin-top: 20px; 
+    padding: 10px;
+    border-radius: 5px;
+}
